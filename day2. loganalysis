@@ -1,0 +1,21 @@
+/// Day2 AOC Wihter Event 
+SIEM is defined as Security Information and Event Management 
+Class presents a VM, or Virtual Machine, for SIEM evironment using software called Elastic. 
+Instructor identifies how to identiy time period, for data logs, and filters, by type e.g., hostname or user.name, etc 
+In specific for sourcetype, we use the following. Host.hostname,user.name, process.command_line,event_outcome,source.ip , event.category 
+Instructor shows time period 12.01.24 0900 until 12.01.24 0930 
+Performs basic filter, or data result, and finds numerous logs from user server admin and ip 10.0.11.11 
+After this, instructor asks class to expand time field from 12.01.24 to a beginning date of 11.29.24 
+Once action is performed, instructor illustrates a potential " force in" or attempt to unveil password by guessing entry into account 
+Subsequent, instructor asks class to refilter by event.category and remove filtering for source ip, to gander as to what other ips could be involved 
+Able to illustrate a brute force attack from a different ip address 10.0.255.1 Instructor notes this is possibly being executed using software Netexec
+Bruteforce attack is confirmed successful by instructor, illustrating supposed user was able to access environment 
+After identifying brute force attack, instructor asks class to remove filters to look into what supposed user is doing 
+Following unfilter, it is noted by instructor, seems to be a powershell command being run under process command line by supposed user 
+Instructor asks class to copy this line of powershell code and put into input on external site CyberChef  
+Able to identify encoded message using AI tool, found out powershell command is a base64 encoded message 
+Using Cyberchef, able to identify using powershell input and operations or recipe from base64 and decode text
+  Install-WindowsUpdate -AcceptAll -AutoReboot 
+  ^ Identified message or output as preceding message 
+  Looks per instructor and output that supposed user is trying to install windows updates. 
+  Finsished coursework, need to do subsequent class Elk room 
