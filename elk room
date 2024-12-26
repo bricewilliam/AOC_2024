@@ -1,0 +1,11 @@
+/// Elkroom 
+VPN or virtual private machine, VPN log monitoring exercise 
+Goal of task is to review VPN logas and detect any anomalies. It is noted by instruction, that seems to be some concern during Janurary 2022 time period. 
+Class instruction also notes an employee was terminated on 01.01.2022 employee or username Johny Brown 
+Instructions in task 3 demonstrate what an elastic search is and what is composed of, data collection agent, data input or filter, index and store data, analysis & visualization 
+Task 4 objective is to deploy a vpn vm and review tabs discover, visualization and dashboard 
+Instructions show how to start VM and begin basic utilization of Kibana on Elastic. 
+Task 5 shows how to use Kibana, time index, filters, time display,etc 
+TASK 6 demonstartes KQL or Kibana Query language, in particular free text, wild card functions or *eg, logic operators 
+Task 7 is an overview of data visualizations within Elastic Kibana dashboard 
+Learned to create a dashboard with numerous visualizations from prior exercises 
